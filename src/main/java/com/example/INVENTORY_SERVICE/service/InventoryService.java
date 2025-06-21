@@ -19,7 +19,7 @@ public class InventoryService {
     public InventoryItem save(InventoryItem inventoryItem) {
         return inventoryRepository.save(inventoryItem);
     }
-    public void createInventory(Long productArticle, int quantity) {
+    public void createInventory(Long productArticle, Long quantity) {
         InventoryItem item = new InventoryItem();
         item.setProductArticle(productArticle);
         item.setQuantity(quantity);

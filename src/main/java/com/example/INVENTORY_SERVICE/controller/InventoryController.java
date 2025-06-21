@@ -7,7 +7,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("v1/inventory")
+@RequestMapping("/v1/inventory")
 @RequiredArgsConstructor
 public class InventoryController {
 

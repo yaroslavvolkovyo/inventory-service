@@ -13,5 +13,5 @@ public class ProductCreatedEvent {
     private String productId;
     private String title;
     private Long productArticle;
-    private int quantity;
+    private Long quantity;
 }

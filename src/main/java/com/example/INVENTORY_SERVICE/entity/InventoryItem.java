@@ -22,5 +22,5 @@ public class InventoryItem {
 
     private Long productArticle;
 
-    private int quantity;
+    private Long quantity;
 }
